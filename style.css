@@ -343,6 +343,7 @@ h3.my-profession
     margin-bottom: 70px;
     font: size 20px; 
     color: var(--text-black-700);
+    text-align:justify;
 }
 .home .home-img
 {
@@ -408,6 +409,7 @@ h3.my-profession
     line-height: 25px;
     color: var(--text-black-700);
     margin-left: 13px;
+    text-align: justify;
 }
 .about .about-content .personal-info
 {
@@ -606,6 +608,10 @@ h3.my-profession
     padding: 30px 15px;
     text-align: center;
     transition: all 0.35 ease;
+}
+.service .service-item .service-item-inner p
+{
+    text-align:justify
 }
 .service .service-item .service-item-inner:hover
 {
