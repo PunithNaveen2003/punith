@@ -658,39 +658,40 @@ h3.my-profession
     line-height: 25px;
 }
 /* Project */
-.project .container
-{
+.project .container {
     padding-bottom: 40px;
 }
-.project .project-heading
-{
-    flex: 0 0 100%;
+
+.project .project-heading {
+    display: grid;
+    grid-template-columns: 1fr;
     max-width: 100%;
     margin-bottom: 40px;
 }
-.project .project-heading h2
-{
+
+.project .project-heading h2 {
     color: var(--text-black-900);
     font-weight: 500;
 }
-.project .project-item
-{
-  margin-bottom: 30px;
+
+.project .project-item {
+    gap: 10px;
+    margin-bottom: 30px;
 }
-.project .project-item-inner
-{
+
+.project .project-item-inner {
     border: 6px solid var(--bg-black-100);
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
     margin: auto;
-    
 }
-.project .project-item-inner .project-imag img
-{
+
+.project .project-item-inner .project-imag img {
     width: 100%;
-    display: block;  
+    display: block;
 }
+
 /* Contact */
 .contact-title
 {
